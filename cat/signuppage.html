@@ -1,0 +1,118 @@
+<!doctype html>
+ <html>
+  <head>
+   <title>
+    Aptituter
+   </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+ 
+
+
+<body>
+  <div class="box">
+ <div class="container-fluid">
+
+ <div class="Title">
+   <div class="jumbotron"><img src="iete.jpg" width="100" height="100" style="float:left"><img src="BITlogo.jpg" width="100" height="100" style="float:right">
+   
+    <a href="index.php">
+     <h1>CAT
+     </h1>
+    </a> 
+   <p> <h3>Circuital Aptitude Test</h3></p>
+   </div>
+</div>
+
+<div class="headerlist">
+<ul class="nav nav-tabs">
+<li><a href="index.php">Home</a></li>
+<li><a href="testscores.php">Test Scores</a></li>
+<li><a href="aboutus.php">About us</a></li>
+<li><a href="http://www.bitmesra.ac.in">BIT Mesra</a></li>
+<li><a href="signuppage.php">CREATE AN ACCOUNT</a></li>
+</ul>
+</div>
+
+ <div class="container-fluid"> 
+ <h1>Sign Up For Aptituter Now!!</h1>
+<form action="connect.php" name="myform" onSubmit="return(validate())" method="POST">
+<fieldset>
+
+<legend>Enter the information
+</legend>
+
+<div><label><h5>Enter the Username</h5></label>
+     <input type="text" name="username" maxsize="30" size="10" ></div>
+
+<div><label><h5>Enter the email id</h5></label>
+     <input type="text" name="emailid" maxsize="30" size="10" ></div>
+
+
+<div><label><h5>Enter the Password</h5></label>
+     <input type="password" name="password" maxsize="30" size="10" ></div>
+
+
+<div><label><h5>Enter the Mobile Number</h5></label>
+     <input type="text" name="mobile" maxsize="10" size="10" ></div>
+
+<div><label><h5>Select the Hostel</h5></label>
+<select name="hostel"><option value ="h1">H-1</option><option value="h2">H-2</option value="h3"><option>H-3</option><!--<option>H-4</option><option>H-5</option><option>H-6</option><option>H-7</option><option>H-8</option><option>H-9</option><option>H-10</option><option>H-11</option><option>H-12</option><option>H-13</option>-->
+</select></div>
+
+
+
+
+<div><label><h5>Enter the Room Number</h5></label>
+     <input type="text" name="roomno" maxsize="3" size="3" ></div>
+
+
+<div><h5>Select the gender  </h5><input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female</div>
+<br><br>
+<input type="submit" id="submit "value="Join Aptituter"><br><br><input type="reset" value="Reset">
+</fieldset>
+</form>
+
+
+
+<script type="text/javascript">
+function validate()
+{
+
+
+if(document.myform.username.value=="")
+{alert("ENTER VALID USERNAME");document.myform.username.focus() ; return false;}
+
+if(document.myform.emailid.value=="")
+{alert("ENTER VALID EMAIL ID");document.myform.emailid.focus() ; return false;}
+if(document.myform.password.value=="")
+{alert("ENTER VALID PASSWORD");document.myform.password.focus() ; return false;}
+if(document.myform.mobile.value=="")
+{alert("ENTER VALID MOBILE NUMBER");document.myform.mobile.focus() ; return false;}
+if(document.myform.roomno.value=="")
+{alert("ENTER VALID ROOM NUMBER");document.myform.roomno.focus() ; return false;}
+if(document.myform.password.value.length>=10)
+{alert("Password length should be less than 10");document.myform.password.focus() ; return false;}
+if(document.myform.roomno.value.length>=4)
+{alert("Room No. length should be less than 4");document.myform.roomno.focus() ; return false;}
+
+
+
+}
+</script>
+
+
+
+
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<div class="footer">Copyright(c) 2015 Institution of Electronics & Telecommunication Engineers(IETE),BIT Mesra
+<br>Created by: Sneh Sajal & Akshat Chitransh</div>
+
+</div>
+
+
+</body>
+</html>

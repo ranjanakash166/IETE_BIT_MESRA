@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/forumsoftware/App_Browsers/" hash="548c81b0" filehash="2332915ce386" flags="110000" assembly="App_Browsers" type="ASP.ApplicationBrowserCapabilitiesFactory">
+    <filedeps>
+        <filedep name="/forumsoftware/App_Browsers/Form.browser" />
+    </filedeps>
+</preserve>

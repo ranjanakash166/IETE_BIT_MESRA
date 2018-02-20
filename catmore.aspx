@@ -1,0 +1,15 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="catmore.aspx.cs" Inherits="Default3" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+         <div class="row feature design">
+      <div class="area1 columns center">
+  <h1 style="color:orange; text-align:center">CAT</h1>
+ <p style="font-family:Aparajita;font-size:35px; color:blue; text-align:center;">The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognised professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. Founded in 1953. The IETE is the National Apex Professional body of Electronics and Telecommunication, Computer Science and IT Professionals. It serves more than 1,25,000 members (including Corporate, Student and ISF members) through various 64 Centres, spread all over India and abroad. The Institution provides leadership in Scientific and Technical areas of direct importance to the national development and economy. Government of India has recognised IETE as a Scientific and Industrial Research Organization (SIRO) and also notified as an educational Institution of national eminence. The objectives of IETE focus on advancing electro-technology. The IETE conducts and sponsors technical meetings, conferences, symposia, and exhibitions all over India, publishes technical journals and provides continuing education as well as career advancement opportunities to its members.
+      The  use  of  aptitude  and  knowledge  tests  to  screen potential  job  applicants  has  been  a  standard  process  in many  different  sectors .The  IETE  STUDENTS’  CHAPTER  of BIT MESRA  conducts  CAT(circuital aptitude test) .CAT ,is  a platform  which  provides  online  competitions  and  plenty of  practice  tests. It  is  a weekly  event  which  is  usually held  every  Friday .It  is  a  45  minutes  test  and  questions  are  objective  and  they  cover  a  range  of  topics  in  the field  of  electrical ,electronics  as well  as  aptitude  and  basic  mathematics .The  questions  are  set  on  a  pattern which  is  generally  asked  in  interviews .The  main  benefit of  CAT  is  that  it  diminishes  the  concept  of  rote  learning to  an  extent  by  providing  a  platform  to  make  a  direct  implementation  of  the  theory  which  the  students  are studying. After  every  test  a  Rank  List  is  displayed ,which helps  the  participants  to  keep  a  track of  where  they stand  among  other  participants .The  test  is  not  only  for circuital  branches .It  is  open  to  all .It  benefits  mostly  the students  who  are  likely  to  appear  in  Internship’s  and Placement’s  test. The  questions  are  a  mix  of  logical  thinking  and  technical  questions  laying  less  emphasis  on  facts  and  more  application  based.
+  </p>
+        </div>
+          </div>
+</asp:Content>
+
